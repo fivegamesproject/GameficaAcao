@@ -3,6 +3,10 @@
 =========================================================
 * Vue Material Kit 2 - v2.0.0
 =========================================================
+import HelloWorld from './components/HelloWorld.vue'
+import TheWelcome from './components/TheWelcome.vue'
+import Header from './components/Header/Header.vue'
+import Questionnarie from './components/Questionnarie/Questionnarie.vue'
 
 * Product Page: https://www.creative-tim.com/product/vue-material-kit
 * Copyright 2022 Creative Tim (https://www.creative-tim.com)
@@ -15,6 +19,8 @@ Coded by www.creative-tim.com
 */
 import { RouterView } from "vue-router";
 </script>
+
+
 
 <template>
   <router-view />
