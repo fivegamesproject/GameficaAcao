@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import PresentationView from "../views/Presentation/PresentationView.vue";
 import AboutView from "../views/LandingPages/AboutUs/AboutView.vue";
+import QuestionnarieView from "../views/LandingPages/Questionnarie/QuestionnarieView.vue";
 import ContactView from "../views/LandingPages/ContactUs/ContactView.vue";
 import AuthorView from "../views/LandingPages/Author/AuthorView.vue";
 import SignInBasicView from "../views/LandingPages/SignIn/BasicView.vue";
@@ -30,6 +31,11 @@ const router = createRouter({
       path: "/",
       name: "presentation",
       component: PresentationView,
+    },
+    {
+      path: "/questionnarie",
+      name: "questionnarie",
+      component: QuestionnarieView,
     },
     {
       path: "/pages/landing-pages/about-us",
@@ -146,6 +152,7 @@ const router = createRouter({
       name: "el-typography",
       component: ElTypography,
     },
+  
   ],
 });
 

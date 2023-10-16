@@ -1,5 +1,11 @@
 <script>
-import { FlowForm, QuestionModel, QuestionType, ChoiceOption, LanguageModel } from '@ditdot-dev/vue-flow-form'
+import { FlowForm, QuestionModel, QuestionType, ChoiceOption, LanguageModel } from '@ditdot-dev/vue-flow-form';
+import { onMounted } from "vue";
+import setMaterialInput from "@/assets/js/material-input";
+
+onMounted(() => {
+  setMaterialInput();
+});
 
 export default {
   name: 'example',
